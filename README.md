@@ -1,1 +1,2 @@
-# Completely-Fair-Scheduler
+Completely Fair Scheduler is a process scheduler which allocates each process an equal amount of time by taking the burst time of processes present in the waiting buffer and that value is taken as input to each process present inside the buffer when it enters the processor. After the time gets over, it comes out of the processor and waits for its turn in the wait buffer until all other successive processes finish its part with the same value (ie. average time).
+This project is implemented in C++ using the advanced data structure called Red-Black Tree which efficiently reduces this algorithm computation by a time complexity of O(log n) compared to the other Data Structures such as a Splay Tree or a normal Binary Search Tree.
